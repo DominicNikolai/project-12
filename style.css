@@ -23,35 +23,30 @@ body {
   width: 100%;
   overflow: hidden;
   display: flex;
-  background:
-	repeating-radial-gradient(
-		circle,
-		transparent,
-		transparent 3.5em,
-		tomato 3.5em,
-		tomato 4.5em
-	),
-	repeating-radial-gradient(
-		circle,
-		transparent,
-		transparent 3.5em,
-		dodgerblue 3.5em,
-		dodgerblue 4.5em
-	),
-	repeating-radial-gradient(
-		circle,
-		transparent,
-		transparent 2.5em,
-		gold 2.5em,
-		gold 2.75em
-	), floralwhite;
+  background: repeating-radial-gradient(
+      circle,
+      transparent,
+      transparent 3.5em,
+      tomato 3.5em,
+      tomato 4.5em
+    ),
+    repeating-radial-gradient(
+      circle,
+      transparent,
+      transparent 3.5em,
+      dodgerblue 3.5em,
+      dodgerblue 4.5em
+    ),
+    repeating-radial-gradient(
+      circle,
+      transparent,
+      transparent 2.5em,
+      gold 2.5em,
+      gold 2.75em
+    ),
+    floralwhite;
 
-background-blend-mode: multiply;
-background-size: 10em 10em;
-background-position:
-	0 0,
-	5em 5em,
-	10em 5em;
+  background-blend-mode: multiply;
+  background-size: 10em 10em;
+  background-position: 0 0, 5em 5em, 10em 5em;
 }
-
-
